@@ -1,0 +1,42 @@
+body {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.linha {
+    display: flex; 
+}
+
+.quadrado {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    background-color: red;
+}
+
+#quadrado1, #quadrado2, #quadrado3, #quadrado4 {
+    border: 3px solid black; 
+}
+
+#quadrado1:hover, #quadrado2:hover, #quadrado3:hover, #quadrado4:hover {
+    filter: brightness(80%);
+}
+
+.azul {
+    background-color: blue;
+}
+
+.verde {
+    background-color: green;
+}
+
+.amarelo {
+    background-color: yellow;
+}
